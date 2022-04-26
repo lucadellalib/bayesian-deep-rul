@@ -1,6 +1,6 @@
-# A Comparative Study between Bayesian and Frequentist Neural Networks for Remaining Useful Life Estimation in Condition-Based Maintenance
+# Bayesian Deep Learning for Remaining Useful Life Estimation of Machine Tool Components
 
-Official implementation of https://arxiv.org/abs/1911.06256. Bayesian and frequentist deep learning models for remaining useful life (RUL) estimation are evaluated on simulated run-to-failure data. Implemented in PyTorch, developed and tested on Ubuntu 18.04 LTS. All the experiments were run on a publicly available Google Compute Engine Deep Learning VM instance with 2 vCPUs, 13 GB RAM, 1 NVIDIA Tesla K80 GPU and *PyTorch 1.2 + fast.ai 1.0 (CUDA 10.0)* framework.
+Bayesian and frequentist deep learning models for remaining useful life (RUL) estimation are evaluated on simulated run-to-failure data. Implemented in PyTorch, developed and tested on Ubuntu 18.04 LTS. All the experiments were run on a publicly available Google Compute Engine Deep Learning VM instance with 2 vCPUs, 13 GB RAM, 1 NVIDIA Tesla K80 GPU and *PyTorch 1.2 + fast.ai 1.0 (CUDA 10.0)* framework.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -54,28 +54,12 @@ Open a terminal in the root directory, activate the virtual environment and run 
 
 ## Results
 
-Training and evaluation logs of the experimental results are provided for verification. Run *results/results.ipynb* in Jupyter Notebook to check the results by yourself. TensorBoard logging was disabled to speed up training.
+Training and evaluation logs of the experimental results are provided for verification. Run *results/results.ipynb* in Jupyter Notebook to check the results by yourself.
 
----------------------------------------------------------------------------------------------------------
-
-## Citation
-
-If you find this work useful in your research, please consider citing:
-```
- @article{libera2019comparative,
-    title={A Comparative Study between Bayesian and Frequentist Neural Networks for Remaining Useful Life Estimation in Condition-Based Maintenance},
-    author={Luca Della Libera},
-    year={2019},
-    journal={arXiv preprint arXiv:1911.06256},
-    eprint={1911.06256},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-  }
-```
 ---------------------------------------------------------------------------------------------------------
 
 ## Contact
 
-luca310795@gmail.com
+luca.dellalib@gmail.com
 
 ---------------------------------------------------------------------------------------------------------
